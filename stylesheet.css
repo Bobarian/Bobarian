@@ -1,0 +1,198 @@
+/* CSS Document */
+
+html {
+	background: url(images/backdrop.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+}
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+/*#headerTable {
+	display: table;
+}
+
+#headerRow {
+	display: table-row;
+}
+
+#headLeft, #headRight {
+	display: table-cell;
+} */
+
+.darkHead {
+	width: 90%;
+	height: 100px;
+	color: #FFF;
+	top: 0;
+	left: 5%;
+	margin: 0 auto;
+	background-image: url(images/TopDark.png);
+	position:absolute;
+	/* display:inline-block; */
+	border: solid black 1px;
+}
+
+/* #topStitch {
+	width: 99%;
+	margin-left: .5%;
+	height:95px;
+	border-bottom: dashed white 1px;
+	border-top: dashed white 1px;
+	top: 0;
+	position: relative;
+}
+*/
+#myName {
+	padding-left: 20px;
+	padding-top: 0px;
+	margin-top: 0px;
+	display: inline;
+
+}
+
+.socialLinks {
+	display:inline;
+	padding-top: 10px;
+	padding-right: 20px;
+	right: 0;
+	float:right;
+	position: relative;
+}
+.sButton {
+	opacity: 0.75;
+		
+}
+
+.menubar {
+	width: 90%;
+	left: 5%;
+	height: 160px;
+	margin-top: -15px;
+	margin: 0 auto;
+	background-image:url(images/TopLight.png);
+	position:absolute;
+	display:block;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	border: solid black 1px;
+
+}
+
+
+.topMenu .nav{
+	color: white;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 805px;
+	height: 30px;
+
+}
+
+.nav {
+	background: url(images/menuOff.jpg);
+	top: 95px;
+	margin: 15px auto; padding:0;
+	position:relative;	
+}
+.nav li {
+	margin:0; padding:0; list-style: none;
+	position:absolute;
+	overflow: hidden;
+	display: block;
+	color: black;
+	font-style: strong;
+
+}
+.nav li a {
+	text-decoration: none;
+	text-align: center;
+	font-size: 1em;
+	text-decoration: none;
+
+}
+#about {
+	height: 30px;width: 160px;
+	border-top-left-radius:20px;
+	border-bottom-left-radius:20px;
+	border-right: 1px solid black;
+
+}
+#pm {
+	left: 161px;
+	height: 30px; width: 160px;
+	border-right: 1px solid black;
+}
+#stuff {
+	left: 322px;
+	height: 30px; width: 160px;
+	border-right: 1px solid black;
+}
+#pandv {
+	left: 483px;
+	height: 30px; width: 160px;
+	border-right: 1px solid black;
+}
+#contact {
+	left: 644px;
+	height: 30px; width: 160px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.pageContent {
+	height: 40em;
+	width: 90%;
+	border: 2px solid black;
+	border-radius: 15px;
+	background-image:url(images/TopLight.png);
+	margin: 0 auto;
+	top: 200px;
+	color: black;
+	position: relative;
+	padding: 3px;
+	visibility: hidden;
+	
+}
+#framer {
+	position: relative;
+	top: 0px;
+	margin: 0 auto;
+	margin-left: 2.5%;
+	margin-top: 2.5;
+	width: 95%;
+	height: 90%;
+	border-radius: 15px;
+	border: 2px solid black;
+}
+
+#bottomBar {
+ width: 100%;
+ height: 40px;
+ background: url(images/BottomDarkEdge.png);
+ position:absolute;
+ bottom: 0;
+ 
+}
+
+.bottomText {
+	color: white;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align: center;
+	
+}
+
+.closeButton {
+	height: 32px; width: 32px;
+	background-color: white;
+	border: 1px solid black;
+	float: right;
+	border-radius: 50px;
+	display: block;
+}

@@ -1,0 +1,14 @@
+/* About's CSS File */
+
+html {
+ background-color: white;
+ color: black;
+ font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+ word-wrap: break-word;
+ text-align: center;
+}
+
+.mainContent {
+	background-color: white;
+	color: black;
+}
